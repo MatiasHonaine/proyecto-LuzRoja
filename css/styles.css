@@ -177,24 +177,22 @@ ol {
         background-color: rgb(201, 197, 197);
 
     }
+    
+    .galeria{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     .galeria1 {
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-
-    }
-
-    .galeria2 {
 
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin: 80px;
+        }
 
-
+    .galeria-servicio{
+        margin: 130px 15px;
+        
     }
 
 
@@ -267,6 +265,7 @@ ol {
         padding: 20px;
         gap: 10px;
         font-weight: bold;
+        margin: 40px;
         align-items: center;
 
     }
@@ -307,26 +306,29 @@ ol {
         gap: 25px;
     }
 
+    
+
     .main {
         background-color: rgb(201, 197, 197);
 
     }
 
-    .galeria1 {
+    .galeria{
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: 750px;
     }
 
-    .galeria2 {
+
+    .galeria1 {
 
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        margin: 80px;
+        }
 
+    .galeria-servicio{
+        margin: 130px 15px;
+        
+    }
 
     .footer {
         background-color: rgb(201, 197, 197);
@@ -388,6 +390,7 @@ ol {
         background-color: rgb(201, 197, 197);
         border: black;
         padding: 15px;
+        text-align: center;
     }
 
     .formulario {
@@ -455,21 +458,22 @@ ol {
     }
 
 
-    .galeria1 {
+    .galeria{
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: 750px;
     }
 
-    .galeria2 {
+
+    .galeria1 {
 
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        margin: 80px;
+        }
 
+    .galeria-servicio{
+        margin: 130px 15px;
+        
+    }
 
     .footer {
         background-color: rgb(201, 197, 197);
@@ -531,6 +535,7 @@ ol {
         background-color: rgb(201, 197, 197);
         border: black;
         padding: 15px;
+        text-align: center;
     }
 
     .formulario {
@@ -546,12 +551,11 @@ ol {
     }
 
     .button {
+        
         padding: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
-
-
+    
     }
-
 }
