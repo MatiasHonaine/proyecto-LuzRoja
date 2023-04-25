@@ -1,0 +1,35 @@
+@media(min-width: 375px) {
+
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+
+    }
+}
+
+
+@media(min-width: 768px) {
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+
+    }
+
+}
+@media(min-width: 1200px) {
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+
+
+    }
+
+}

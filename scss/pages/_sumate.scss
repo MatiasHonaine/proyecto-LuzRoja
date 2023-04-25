@@ -1,0 +1,353 @@
+@media(min-width: 375px) {
+
+
+    .header {
+        background-color: $color-principal;
+        color: $color-secundario;
+        font-family: $fuente-principal;
+        text-align: center;
+
+        &-h2 {
+            background-color: $color-principal;
+            color: rgba(11, 12, 9, 0.774);
+            font-family: 'Amatic SC', cursive;
+            font-weight: 300px;
+            text-align: center;
+
+        }
+
+        &-nav {
+            background-color: $color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 5px;
+            gap: 5px;
+            text-align: center;
+        }
+    }
+
+    .main {
+        background-color: $color-principal;
+
+    }
+
+    .formulario {
+        color: rgba(22, 4, 4, 0.829);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+        gap: 10px;
+        font-weight: bold;
+        margin: 40px;
+        align-items: center;
+
+    }
+
+    .button {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+
+    }
+
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+        text-align: end;
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+    }
+
+
+
+    .header-h3 {
+        color: $color-secundario;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .main {
+        background-color: $color-principal;
+        height: 110vh;
+    }
+
+    .parrafo {
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(80, 2, 2, 0.767);
+        font-family: 'Playfair Display', serif;
+        background-color: $color-principal;
+        border: black;
+        padding: 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .header {
+        background-color: $color-principal;
+        color: $color-secundario;
+        font-family: $fuente-principal;
+
+
+        &-h2 {
+            background-color: $color-principal;
+            color: rgba(11, 12, 9, 0.774);
+            font-family: 'Amatic SC', cursive;
+            font-weight: 300px;
+
+
+        }
+
+        &-nav {
+            background-color: $color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 5px;
+            gap: 5px;
+
+        }
+    }
+
+    .main {
+        background-color: $color-principal;
+
+    }
+
+    .formulario {
+        color: rgba(22, 4, 4, 0.829);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+        gap: 10px;
+        font-weight: bold;
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+
+    }
+
+    .button {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+
+    }
+
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+        text-align: end;
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+    }
+
+
+
+    .header-h3 {
+        color: $color-secundario;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .main {
+        background-color: $color-principal;
+        height: 110vh;
+    }
+
+    .parrafo {
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(80, 2, 2, 0.767);
+        font-family: 'Playfair Display', serif;
+        background-color: $color-principal;
+        border: black;
+        padding: 15px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .header {
+        background-color: $color-principal;
+        color: $color-secundario;
+        font-family: $fuente-principal;
+        padding: 15px;
+        display: flex;
+        justify-content: left;
+
+        &-h2 {
+            background-color: $color-principal;
+            color: rgba(11, 12, 9, 0.774);
+            font-family: 'Amatic SC', cursive;
+            padding: 15px;
+            display: flex;
+            justify-content: left;
+
+        }
+
+        &-nav {
+            background-color: $color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 5px;
+            gap: 25px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .main {
+        background-color: $color-principal;
+
+    }
+
+    .formulario {
+        color: rgba(22, 4, 4, 0.829);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+        gap: 10px;
+        font-weight: bold;
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+
+    }
+
+    .button {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+
+
+    }
+
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+    }
+
+
+
+    .header-h3 {
+        color: $color-secundario;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        font-size: 1.2rem;
+
+    }
+
+    .main {
+        background-color: $color-principal;
+        height: 110vh;
+    }
+
+    .parrafo {
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(80, 2, 2, 0.767);
+        font-family: 'Playfair Display', serif;
+        background-color: $color-principal;
+        border: black;
+        padding: 15px;
+        text-align: center;
+    }
+
+}

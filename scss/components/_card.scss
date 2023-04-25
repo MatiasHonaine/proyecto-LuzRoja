@@ -1,0 +1,96 @@
+@media(min-width: 375px) {
+
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+        text-align: end;
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+            text-align: end;
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .card-f {
+        background-color: $color-principal;
+        color: rgb(5, 5, 5);
+        font-size: 1.3rem;
+        display: inline-flex;
+        padding: 5px;
+        gap: 15px;
+
+
+        &-i {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+
+        &-m {
+            background-color: $color-principal;
+            color: rgb(5, 5, 5);
+            font-size: 1.3rem;
+            display: inline-flex;
+            padding: 5px;
+            gap: 15px;
+
+        }
+    }
+}
