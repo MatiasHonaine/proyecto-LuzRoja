@@ -29,14 +29,16 @@
 
     }
 
+    
     .galeria {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
 
     .galeria-servicio {
-        margin: 130px 15px;
+        margin-bottom: 15px;
     }
+
 
     .footer {
         background-color: $color-principal;
