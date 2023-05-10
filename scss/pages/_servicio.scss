@@ -29,14 +29,22 @@
 
     }
 
-    
+
     .galeria {
         display: flex;
         flex-direction: column;
+        width: 75vw;
+        max-width: 1200px;
+        min-width: 320px;
+        margin: auto;
     }
 
     .galeria-servicio {
-        margin-bottom: 15px;
+        width: 100%;
+        height: 8em;
+        object-fit: contain;
+        border-radius: 15px;
+        margin-bottom: 5px;
     }
 
 
@@ -139,11 +147,19 @@
 
     .galeria {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        width: 75vw;
+        max-width: 1200px;
+        min-width: 320px;
+        margin: auto;
     }
 
     .galeria-servicio {
-        margin: 130px 15px;
+        width: 100%;
+        height: 15em;
+        object-fit: contain;
+        border-radius: 15px;
+        margin-bottom: 15px;
 
     }
 
@@ -253,11 +269,19 @@
 
     .galeria {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        width: 75vw;
+        max-width: 1200px;
+        min-width: 320px;
+        margin: auto;
     }
 
     .galeria-servicio {
-        margin: 130px 15px;
+        width: 100%;
+        height: 22em;
+        object-fit: contain;
+        border-radius: 15px;
+        margin-bottom: 15px;
 
     }
 

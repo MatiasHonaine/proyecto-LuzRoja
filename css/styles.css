@@ -1,430 +1,1568 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    color: rgba(80, 2, 2, 0.767);
+  color: rgba(80, 2, 2, 0.767);
 }
 
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-
-@media(min-width: 375px) {
-
-
-
-    .header {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        font-family: 'Lora', serif;
-        text-align: center;
-    }
-
-    .header-h2 {
-        background-color: rgb(201, 197, 197);
-        color: rgba(11, 12, 9, 0.774);
-        font-family: 'Amatic SC', cursive;
-        font-weight: 300px;
-        text-align: center;
-
-    }
-
-    .header-nav {
-        background-color: rgb(201, 197, 197);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 5px;
-        gap: 5px;
-        text-align: center;
-    }
-
-    .main {
-        background-color: rgb(201, 197, 197);
-
-    }
-    
-    .galeria{
-        display: flex;
-        justify-content: center;
-    }
-    
-
-    .galeria1 {
-
-        padding: 15px;
-        margin: 80px;
-        }
-
-    .galeria-servicio{
-        margin: 130px 15px;
-        
-    }
-
-
-    .footer {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        padding: 20px;
-        font-family: 'Playfair Display', serif;
-        text-align: center;
-
-    }
-
-    .card-f {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-        text-align: end;
-    }
-
-    .card-i {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-        text-align: end;
-    }
-
-    .card-m {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-        text-align: end;
-    }
-
-    .header-h3 {
-        color: rgba(56, 2, 2, 0.822);
-        font-family: 'Montserrat', sans-serif;
-        padding: 10px;
-        font-size: 1.2rem;
-        text-align: center;
-    }
-
-    .main {
-        background-color: rgb(201, 197, 197);
-        height: 110vh;
-    }
-
-    .parrafo {
-        font-weight: 600;
-        font-size: 1rem;
-        color: rgba(80, 2, 2, 0.767);
-        font-family: 'Playfair Display', serif;
-        background-color: rgb(201, 197, 197);
-        border: black;
-        padding: 15px;
-    }
-
-
-    .formulario {
-        color: rgba(22, 4, 4, 0.829);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 20px;
-        gap: 10px;
-        font-weight: bold;
-        margin: 40px;
-        align-items: center;
-
-    }
-
-    .button {
-        padding: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+}
+@media (min-width: 375px) {
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 375px) {
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+}
+@media (min-width: 768px) {
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    padding: 5px;
+    gap: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .card-f {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+}
+@media (min-width: 375px) {
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100px;
+    object-fit: contain;
+    border-radius: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  nav {
+    text-align: center;
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: 50px;
+  }
+  .galeria-1 {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 50vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    height: 50vw;
+    border-radius: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 50vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    height: 50vw;
+    border-radius: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-servicio {
+    width: 100%;
+    height: 8em;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .header-h3 {
+    color: rgba(56, 2, 2, 0.822);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-servicio {
+    width: 100%;
+    height: 15em;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-servicio {
+    width: 100%;
+    height: 22em;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .formulario {
+    color: rgba(22, 4, 4, 0.829);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+    gap: 10px;
+    font-weight: bold;
+    margin: 5px;
+    align-items: center;
+  }
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .formulario {
+    color: rgba(22, 4, 4, 0.829);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 20px;
+    gap: 10px;
+    font-weight: bold;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+  }
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .formulario {
+    color: rgba(22, 4, 4, 0.829);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 20px;
+    gap: 10px;
+    font-weight: bold;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+  }
+  .button {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+    text-align: center;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    gap: 5px;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    height: 65vw;
+    border-radius: 15px;
+    padding: 2px;
+    margin: auto;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+    text-align: end;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    font-weight: 300px;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    height: 60vw;
+    border-radius: 15px;
+    padding: 2px;
+    margin: auto;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Lora", serif;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-h2 {
+    background-color: rgb(201, 197, 197);
+    color: rgba(11, 12, 9, 0.774);
+    font-family: "Amatic SC", cursive;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+  }
+  .header-nav {
+    background-color: rgb(201, 197, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+  }
+  .galeria {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .galeria-1 {
+    width: 100%;
+    border-radius: 15px;
+    padding: 2px;
+    margin: auto;
+  }
+  .footer {
+    background-color: rgb(201, 197, 197);
+    color: rgba(70, 3, 3, 0.904);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .card-f {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-i {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .card-f-m {
+    background-color: rgb(201, 197, 197);
+    color: rgb(5, 5, 5);
+    font-size: 1.3rem;
+    display: inline-flex;
+    padding: 5px;
+    gap: 15px;
+  }
+  .header-h3 {
+    color: rgba(70, 3, 3, 0.904);
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .main {
+    background-color: rgb(201, 197, 197);
+    height: 110vh;
+  }
+  .parrafo {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(80, 2, 2, 0.767);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(201, 197, 197);
+    border: black;
+    padding: 15px;
+    text-align: center;
+  }
 }
 
-
-
-
-@media(min-width: 768px) {
-
-    .header {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        font-family: 'Lora', serif;
-        padding: 15px;
-    }
-
-    .header-h2 {
-        background-color: rgb(201, 197, 197);
-        color: rgba(11, 12, 9, 0.774);
-        font-family: 'Amatic SC', cursive;
-        font-weight: 300px;
-    }
-
-    .nav {
-        background-color: rgb(201, 197, 197);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-    }
-
-    
-
-    .main {
-        background-color: rgb(201, 197, 197);
-
-    }
-
-    .galeria{
-        display: flex;
-        justify-content: center;
-    }
-
-
-    .galeria1 {
-
-        padding: 15px;
-        margin: 80px;
-        }
-
-    .galeria-servicio{
-        margin: 130px 15px;
-        
-    }
-
-    .footer {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        padding: 20px;
-        font-family: 'Playfair Display', serif;
-
-    }
-
-    .card-f {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-    }
-
-    .card-i {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-
-    }
-
-    .card-m {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-    }
-
-    .header-h3 {
-        color: rgba(56, 2, 2, 0.822);
-        font-family: 'Montserrat', sans-serif;
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-
-
-    .main {
-        background-color: rgb(201, 197, 197);
-        height: 110vh;
-    }
-
-    .parrafo {
-        font-weight: 600;
-        font-size: 1rem;
-        color: rgba(80, 2, 2, 0.767);
-        font-family: 'Playfair Display', serif;
-        background-color: rgb(201, 197, 197);
-        border: black;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .formulario {
-        color: rgba(22, 4, 4, 0.829);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 20px;
-        gap: 10px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 8vh;
-    }
-
-    .button {
-        padding: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
-    }
-
-}
-
-
-
-@media(min-width: 1200px) {
-
-    .header {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        font-family: 'Lora', serif;
-        padding: 15px;
-        display: flex;
-        justify-content: left;
-
-
-    }
-
-    .header-h2 {
-        background-color: rgb(201, 197, 197);
-        color: rgba(11, 12, 9, 0.774);
-        padding: 15px;
-        font-family: 'Amatic SC', cursive;
-        display: flex;
-        justify-content: left;
-
-    }
-
-    .nav {
-        background-color: rgb(201, 197, 197);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-
-    }
-
-
-    .main {
-        background-color: rgb(201, 197, 197);
-
-    }
-
-
-    .galeria{
-        display: flex;
-        justify-content: center;
-    }
-
-
-    .galeria1 {
-
-        padding: 15px;
-        margin: 80px;
-        }
-
-    .galeria-servicio{
-        margin: 130px 15px;
-        
-    }
-
-    .footer {
-        background-color: rgb(201, 197, 197);
-        color: rgba(70, 3, 3, 0.904);
-        padding: 20px;
-        font-family: 'Playfair Display', serif;
-
-    }
-
-    .card-f {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-    }
-
-    .card-i {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-
-    }
-
-    .card-m {
-        background-color: rgb(202, 196, 196);
-        color: rgb(5, 5, 5);
-        font-size: 1.3rem;
-        display: inline-flex;
-        padding: 5px;
-        gap: 15px;
-
-    }
-
-    .header-h3 {
-        color: rgba(56, 2, 2, 0.822);
-        font-family: 'Montserrat', sans-serif;
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-
-
-    .main {
-        background-color: rgb(201, 197, 197);
-        height: 110vh;
-    }
-
-    .parrafo {
-        font-weight: 600;
-        font-size: 1rem;
-        color: rgba(80, 2, 2, 0.767);
-        font-family: 'Playfair Display', serif;
-        background-color: rgb(201, 197, 197);
-        border: black;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .formulario {
-        color: rgba(22, 4, 4, 0.829);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 20px;
-        gap: 10px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 8vh;
-    }
-
-    .button {
-        
-        padding: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-}
+/*# sourceMappingURL=styles.css.map */
