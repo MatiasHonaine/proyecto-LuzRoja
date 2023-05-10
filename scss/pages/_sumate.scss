@@ -16,14 +16,15 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            gap: 5px;
-            text-align: center;
-        }
-    
+
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        gap: 5px;
+        text-align: center;
+    }
+
 
     .main {
         background-color: $color-principal;
@@ -99,7 +100,7 @@
 
     .main {
         background-color: $color-principal;
-        
+
     }
 
     .parrafo {
@@ -129,14 +130,15 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            gap: 5px;
 
-        }
-    
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        gap: 5px;
+
+    }
+
 
     .main {
         background-color: $color-principal;
@@ -150,8 +152,6 @@
         gap: 10px;
         font-weight: bold;
         margin: 40px;
-        display: flex;
-        justify-content: center;
         align-items: center;
         height: 8vh;
 
@@ -249,15 +249,16 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            gap: 25px;
-            display: flex;
-            justify-content: center;
-        }
-    
+
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
 
     .main {
         background-color: $color-principal;
@@ -267,12 +268,10 @@
     .formulario {
         color: rgba(22, 4, 4, 0.829);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 20px;
+        padding: 60px;
         gap: 10px;
         font-weight: bold;
         margin: 40px;
-        display: flex;
-        justify-content: center;
         align-items: center;
         height: 8vh;
 
@@ -336,7 +335,7 @@
 
     .main {
         background-color: $color-principal;
-        
+
     }
 
     .parrafo {
