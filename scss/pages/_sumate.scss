@@ -15,15 +15,15 @@
             text-align: center;
 
         }
-
-        &-nav {
+    }
+        .nav {
             background-color: $color-principal;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 5px;
             gap: 5px;
             text-align: center;
         }
-    }
+    
 
     .main {
         background-color: $color-principal;
@@ -99,7 +99,7 @@
 
     .main {
         background-color: $color-principal;
-        height: 110vh;
+        
     }
 
     .parrafo {
@@ -128,15 +128,15 @@
 
 
         }
-
-        &-nav {
+    }
+        .nav {
             background-color: $color-principal;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 5px;
             gap: 5px;
 
         }
-    }
+    
 
     .main {
         background-color: $color-principal;
@@ -248,8 +248,8 @@
             justify-content: left;
 
         }
-
-        &-nav {
+    }
+        .nav {
             background-color: $color-principal;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 5px;
@@ -257,7 +257,7 @@
             display: flex;
             justify-content: center;
         }
-    }
+    
 
     .main {
         background-color: $color-principal;
@@ -336,7 +336,7 @@
 
     .main {
         background-color: $color-principal;
-        height: 110vh;
+        
     }
 
     .parrafo {

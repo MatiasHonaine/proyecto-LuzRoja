@@ -207,7 +207,7 @@ ol {
     font-weight: 300px;
     text-align: center;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -268,7 +268,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -293,7 +292,7 @@ ol {
     font-family: "Amatic SC", cursive;
     font-weight: 300px;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -354,7 +353,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -445,7 +443,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -472,7 +469,7 @@ ol {
     font-weight: 300px;
     text-align: center;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -537,7 +534,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -562,7 +558,7 @@ ol {
     font-family: "Amatic SC", cursive;
     font-weight: 300px;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -625,7 +621,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -655,7 +650,7 @@ ol {
     display: flex;
     justify-content: left;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -718,7 +713,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -745,7 +739,7 @@ ol {
     font-weight: 300px;
     text-align: center;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -813,7 +807,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -838,7 +831,7 @@ ol {
     font-family: "Amatic SC", cursive;
     font-weight: 300px;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -859,7 +852,7 @@ ol {
   }
   .galeria-servicio {
     width: 100%;
-    height: 15em;
+    height: 12em;
     object-fit: contain;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -902,7 +895,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -932,7 +924,7 @@ ol {
     display: flex;
     justify-content: left;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -996,7 +988,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -1023,7 +1014,7 @@ ol {
     font-weight: 300px;
     text-align: center;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1090,7 +1081,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -1114,7 +1104,7 @@ ol {
     font-family: "Amatic SC", cursive;
     font-weight: 300px;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1213,7 +1203,7 @@ ol {
     display: flex;
     justify-content: left;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1280,7 +1270,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -1307,7 +1296,7 @@ ol {
     font-weight: 300px;
     text-align: center;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1373,7 +1362,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -1398,7 +1386,7 @@ ol {
     font-family: "Amatic SC", cursive;
     font-weight: 300px;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1460,7 +1448,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
@@ -1490,7 +1477,7 @@ ol {
     display: flex;
     justify-content: left;
   }
-  .header-nav {
+  .nav {
     background-color: rgb(201, 197, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -1551,7 +1538,6 @@ ol {
   }
   .main {
     background-color: rgb(201, 197, 197);
-    height: 110vh;
   }
   .parrafo {
     font-weight: 600;
