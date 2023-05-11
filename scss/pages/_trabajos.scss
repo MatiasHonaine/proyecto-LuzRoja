@@ -15,14 +15,15 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            gap: 5px;
-            text-align: center;
-        }
-    
+
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        gap: 5px;
+        text-align: center;
+    }
+
 
 
     .main {
@@ -60,7 +61,7 @@
 
     .card-f {
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
         display: inline-flex;
         padding: 5px;
@@ -69,7 +70,7 @@
 
         &-i {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -79,7 +80,7 @@
 
         &-m {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -100,7 +101,7 @@
 
     .main {
         background-color: $color-principal;
-        
+
     }
 
     .parrafo {
@@ -130,15 +131,16 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-        }
-    
+
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
 
     .main {
         background-color: $color-principal;
@@ -175,7 +177,7 @@
 
     .card-f {
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
         display: inline-flex;
         padding: 5px;
@@ -184,7 +186,7 @@
 
         &-i {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -194,7 +196,7 @@
 
         &-m {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -215,7 +217,7 @@
 
     .main {
         background-color: $color-principal;
-        
+
     }
 
     .parrafo {
@@ -252,15 +254,16 @@
 
         }
     }
-        .nav {
-            background-color: $color-principal;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 5px;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-        }
-    
+
+    .nav {
+        background-color: $color-principal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
 
     .main {
         background-color: $color-principal;
@@ -296,7 +299,7 @@
 
     .card-f {
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
         display: inline-flex;
         padding: 5px;
@@ -305,7 +308,7 @@
 
         &-i {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -315,7 +318,7 @@
 
         &-m {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -336,7 +339,7 @@
 
     .main {
         background-color: $color-principal;
-        
+
     }
 
     .parrafo {

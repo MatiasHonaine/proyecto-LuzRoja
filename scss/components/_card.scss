@@ -2,7 +2,7 @@
 
     .card-f {
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
         display: inline-flex;
         padding: 5px;
@@ -11,7 +11,7 @@
 
         &-i {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -21,7 +21,7 @@
 
         &-m {
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             display: inline-flex;
             padding: 5px;
@@ -35,68 +35,59 @@
     .card-f {
 
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
         padding: 5px;
         gap: 15px;
-
+        text-align: center;
 
         &-i {
 
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             padding: 5px;
             gap: 15px;
-
+            text-align: center;
         }
 
         &-m {
 
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
             padding: 5px;
             gap: 15px;
-
+            text-align: center;
         }
     }
 }
 
 @media(min-width: 1200px) {
     .card-f {
-        display: flex;
-        justify-content: end;
         background-color: $color-principal;
-        color: rgb(5, 5, 5);
+        color: $color-de-tarjetas;
         font-size: 1.3rem;
-        display: inline-flex;
         padding: 5px;
         gap: 15px;
-
+        text-align: center;
 
         &-i {
-            display: flex;
-            justify-content: end;
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
-            display: inline-flex;
             padding: 5px;
             gap: 15px;
-
+            text-align: center;
         }
 
         &-m {
-            display: flex;
-            justify-content: end;
             background-color: $color-principal;
-            color: rgb(5, 5, 5);
+            color: $color-de-tarjetas;
             font-size: 1.3rem;
-            display: inline-flex;
             padding: 5px;
             gap: 15px;
-
+            text-align: center;
         }
     }
 }

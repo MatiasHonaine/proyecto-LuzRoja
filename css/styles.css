@@ -119,6 +119,7 @@ ol {
     font-size: 1.3rem;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
   .card-f-i {
     background-color: rgb(201, 197, 197);
@@ -126,6 +127,7 @@ ol {
     font-size: 1.3rem;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
   .card-f-m {
     background-color: rgb(201, 197, 197);
@@ -133,38 +135,33 @@ ol {
     font-size: 1.3rem;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
 }
 @media (min-width: 1200px) {
   .card-f {
-    display: flex;
-    justify-content: end;
     background-color: rgb(201, 197, 197);
     color: rgb(5, 5, 5);
     font-size: 1.3rem;
-    display: inline-flex;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
   .card-f-i {
-    display: flex;
-    justify-content: end;
     background-color: rgb(201, 197, 197);
     color: rgb(5, 5, 5);
     font-size: 1.3rem;
-    display: inline-flex;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
   .card-f-m {
-    display: flex;
-    justify-content: end;
     background-color: rgb(201, 197, 197);
     color: rgb(5, 5, 5);
     font-size: 1.3rem;
-    display: inline-flex;
     padding: 5px;
     gap: 15px;
+    text-align: center;
   }
 }
 @media (min-width: 375px) {
